@@ -1,3 +1,6 @@
+.DS_Store
+schema.init
+.gitignore
 *Unfallorte2020_EPSG25832_CSV.zip
 *Unfallorte2020_EPSG25832_Shape.zip
 *Unfallorte*_LinRef.*

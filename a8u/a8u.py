@@ -21,7 +21,7 @@ import streamlit as st
 import yaml
 import config
 import pdb
-import pretty_errors
+#import pretty_errors
 # from geopy.point import Point
 # import os
 # from ast import literal_eval
