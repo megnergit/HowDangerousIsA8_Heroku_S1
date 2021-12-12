@@ -1,0 +1,65 @@
+    heading: "### Questions 
+
+        Every day many people commute from Augsburg to Munich,
+        and every week some traffic accidents happen on Autobahn 8.
+        Which part of the highway is most dangerous? Which direction
+        is more dangerous, driving to or returning from Munich? At
+        what time? In what road condition? In order to make the
+        investigation quick and intuitive, a dashboard is created so
+        that one can compare the distributions of the accidents along
+        A8 in different (combinations of) conditions."
+
+    conclusion: "### Conclusion 
+
+        1. There are a few obvious anomalies that one can quickly recognize. 
+
+        - excessive accidents between **Sulzemoos and Odelzhausen** 
+          on the **return trip** from Munich. 
+
+        - excessive accidents between **Adelzhausen and Odelzshausen** 
+          on the way **to go** to Munich. 
+
+        - excessive accidents between **Sulzemoos and Dreieck München**
+          on the way **to go** to Munich. 
+
+
+        In either case, such excessive accidents are not seen on the
+        route in the opposite direction. The tendency can be seen in
+        all years that the data are collected. If we close up
+        individual accident site, it seems the most of the accidents 
+        happens on the passing lane. 
+
+
+        2. There are more than 40,000 combinations of filtering, just
+        counting the options that we picked up here. A quick web
+        app/dashboard is a good option to perform **intuitive
+        investigations**."
+
+    links: "Further discussion and sources codes are available on 
+        (GitHub repo)[]"
+
+    what: "### What this App Does 
+
+        1. The App uses the data 
+
+        2. clean-up the data (the collections of data are slightly
+        different each year).
+
+        3. get the coordinate of A8 (up to and down from Munich)
+        by 
+
+        4. calculate the distances between an accident site and the A8
+        up/down lanes to identify which lane (direction of road) the
+        accident happens.
+
+        5. use the data collected on 3. convert the latitudes and the
+        longitude of the accident sites as one dimensional distance,
+        i.e., distance from the entrance (in our case Zusmarshausen)
+        along A8.
+
+        6. Aggregated the data as histogram, heat map, ad bar chart. 
+
+        7. Show the figures and the maps on a dashboard using streamlit. 
+           Add control via streamlit interface.  
+
+        8. Deploy the App on Heroku."
