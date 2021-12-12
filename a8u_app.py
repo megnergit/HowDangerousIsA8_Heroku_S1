@@ -99,9 +99,9 @@ def show():
     with col3:
         # ================================
         st.markdown('##### Reference')
-        m_1.to_streamlit(height=size * 0.36)
+        m_1.to_streamlit(height=size * 0.34)
         st.markdown('##### Comparison')
-        m_2.to_streamlit(height=size * 0.36)
+        m_2.to_streamlit(height=size * 0.34)
         st.markdown("""___""")
         # -------------------------------
         st.markdown('##### Reference Sample')

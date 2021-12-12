@@ -511,7 +511,7 @@ def visualize_heatmap(df, df_a8_as):
 # tiles = 'Stamen Terrain'
 # tiles = 'cartodbpositron'
 # tiles = 'mapquestopen'
-    offset = [-0.07, -0.04]
+    offset = [-0.05, -0.04]
 
     lat_list, lon_list = zip(*df['coord'])
     center = [np.mean(np.float64(lat_list)), np.mean(np.float64(lon_list))]
