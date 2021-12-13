@@ -20,13 +20,13 @@ The data provider of the traffic accidents in Germany is
 [Statistische Ämter des Bundes und der Länder](https://www.statistikportal.de/de/statistische-aemter)
 
 The direct link to the data is
-[HERE](https://unfallatlas.statistikportal.de/_opendata2021.html).
+[here](https://unfallatlas.statistikportal.de/_opendata2021.html).
 The data only covers the accidents that involve **personal** injuries.
 The accidents that caused only  the property damages are not included.
 
 Acknowledgement: The data presented in this App is used under the
 condition defined by Data license Germany – attribution – Version 2.0.
-The license text is available at https://www.govdata.de/dl-de/by-2-0.
+The license text is available [here](https://www.govdata.de/dl-de/by-2-0).
 
 ### Geocoding
 
@@ -90,7 +90,7 @@ dashboard possible.
 ## Screenshot
 
 The App is currently (Dec 2021) running
-[**HERE**](https://vast-waters-19154.herokuapp.com), but is scheduled
+[**here**](https://vast-waters-19154.herokuapp.com), but is scheduled
 to stop soon. When the App is running, we should see a web page
 looking like this.
 ![fig.1](./images/screen_shot.png)

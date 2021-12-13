@@ -80,7 +80,7 @@ def show():
     col1, col2, col3 = st.columns((0.48, 0.04, 0.48))
     with col1:
         st.markdown(note['heading'])
-        st.markdown('#### Number of Accidents')
+        st.markdown('##### Number of Accidents')
         st.plotly_chart(fig_annual, use_container_width=True)
     with col3:
         st.markdown(note['conclusion'])
