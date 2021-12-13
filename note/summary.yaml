@@ -1,25 +1,26 @@
     heading: "### Questions 
 
-        Every day many people commute from Augsburg to Munich,
-        and every week some traffic accidents happen on Autobahn 8.
-        Which part of the highway is most dangerous? Which direction
-        is more dangerous, driving to or returning from Munich? At
-        what time? In what road condition? In order to make the
-        investigation quick and intuitive, a dashboard is created so
-        that one can compare the distributions of the accidents along
-        A8 in different (combinations of) conditions."
+        Every day people commute from Augsburg to Munich. Every week
+        some traffic accidents happen on Autobahn 8. Which part of the
+        highway is most dangerous? Which direction is more dangerous,
+        driving to or returning from Munich? At what time?  In what
+        road condition? In order to make the investigation fast and
+        intuitive, a dashboard is created.  One can compare the
+        distributions of the accidents along A8 in different
+        (combinations of) conditions."
+
 
     conclusion: "### Conclusion 
 
         1. There are a few obvious anomalies that one can quickly recognize. 
 
-        - excessive accidents between **Sulzemoos and Odelzhausen** 
+        - excessive accidents between **Sulzemoos** and **Odelzhausen** 
           on the **return trip** from Munich. 
 
-        - excessive accidents between **Adelzhausen and Odelzshausen** 
+        - excessive accidents between **Adelzhausen** and **Odelzshausen** 
           on the way **to go** to Munich. 
 
-        - excessive accidents between **Sulzemoos and Dreieck München**
+        - excessive accidents between **Sulzemoos** and **Dreieck München**
           on the way **to go** to Munich. 
 
 
@@ -35,31 +36,36 @@
         app/dashboard is a good option to perform **intuitive
         investigations**."
 
-    links: "Further discussion and sources codes are available on 
-        (GitHub repo)[]"
+    links: "Further discussion and the sources codes
+        are available on (GitHub
+        repo)[https://github.com/megnergit/HowDangerousIsA8_Heroku_S1]"
 
-    what: "### What this App Does 
 
-        1. The App uses the data 
+    what: "### What this App Does
 
-        2. clean-up the data (the collections of data are slightly
-        different each year).
+        1. Collect the accidents data from UnfallAtlas website in csv
+           format.
 
-        3. get the coordinate of A8 (up to and down from Munich)
-        by 
+        2. Clean-up the data (the collections of the data are slightly
+           different each year).
 
-        4. calculate the distances between an accident site and the A8
-        up/down lanes to identify which lane (direction of road) the
-        accident happens.
+        3. Get the coordinates on A8 (tracks up to, and down from
+           Munich, separately) using OSRM service (see 'Data Source /
+           Services Used')
 
-        5. use the data collected on 3. convert the latitudes and the
-        longitude of the accident sites as one dimensional distance,
-        i.e., distance from the entrance (in our case Zusmarshausen)
-        along A8.
+        4. Calculate the distances between an accident site and the A8
+           up/down tracks to identify on which track (= the direction
+           of the flow on the highway) the accident happened.
 
-        6. Aggregated the data as histogram, heat map, ad bar chart. 
+        5. Use the data collected on 3., and convert the latitudes and
+           the longitude of the accident sites to one dimensional
+           distance, i.e., the distance from the entrance of A8 (in
+           our case AS Zusmarshausen).
 
-        7. Show the figures and the maps on a dashboard using streamlit. 
-           Add control via streamlit interface.  
+        6. Aggregate the data as histogram, heat map, and bar chart.
+
+        7. Show the figures and the maps on a dashboard using
+           `streamlit`.  Add controls to filter the types of accidents
+           using streamlit API.
 
         8. Deploy the App on Heroku."
