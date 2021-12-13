@@ -129,4 +129,17 @@ looking like this.
    as a function of time and place.
 
 -----------------------------------------------------------------
+## Summary of Tech Stack
+
+| For                           | Tech used                   |
+|-------------------------------|-----------------------------|
+|Coding                         | Python                      |
+|Geocoding                      | photon/OpenStreetMap        |
+|Reverse Geocoding              | Nominatim/OpenStreetMap     |
+|Routing                        | OSRM                        | 
+|Visualization                  | plotly, folium              |
+|Webpage/Interaction            | streamlit                   |
+|Deployment                     | Heroku                      |
+
+-----------------------------------------------------------------
 # END
