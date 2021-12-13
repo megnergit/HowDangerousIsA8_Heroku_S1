@@ -9,7 +9,7 @@ created. One can compare the distributions of the accidents along A8
 in different (combinations of) conditions."
 
 -----------------------------------------------------------------
-## Data Source / Services Used
+## Data Sources / Services
 
 ### Accidents Data
 
@@ -67,7 +67,7 @@ dashboard possible.
 
         3. Get the coordinates on A8 (tracks up to, and down from
            Munich, separately) using OSRM service (see 'Data Source /
-           Services Used')
+           Services')
 
         4. Calculate the distances between an accident site and the A8
            up/down tracks to identify on which track (= the direction
@@ -136,7 +136,7 @@ looking like this.
 |Coding                         | Python                      |
 |Geocoding                      | photon/OpenStreetMap        |
 |Reverse Geocoding              | Nominatim/OpenStreetMap     |
-|Routing                        | OSRM                        | 
+|Routing                        | Open Source Routing Machine |
 |Visualization                  | plotly, folium              |
 |Webpage/Interaction            | streamlit                   |
 |Deployment                     | Heroku                      |
