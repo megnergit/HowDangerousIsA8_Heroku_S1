@@ -9,6 +9,23 @@ created. One can compare the distributions of the accidents along A8
 in different (combinations of) conditions."
 
 -----------------------------------------------------------------
+## How to start App (note to myself)
+1. Test locally.  
+   ```cd ./ds```
+   ```streamlit run a8u_app.py```
+
+
+2. To start the app on Heroku, first log in to Heroku. 
+   To do so, type the following on the command line: 
+   ```heroku login```
+
+3. Open the web page http://www.heroku.com. 
+   You are on the dashboard.
+
+4. Select ```vast-waters-19154```, and click on ```Open App```.
+
+
+-----------------------------------------------------------------
 ## Data Sources / Services
 
 ### Accidents Data
@@ -47,7 +64,7 @@ uses **OpenStreetMap** dataset.
 
 To find out the coordinates on the tracks of A8, we used the API
 service offered by **Open Source Routing Machine (OSRM)**.
-(OSRM)[http://project-osrm.org]
+[OSRM](http://project-osrm.org)
 
 ### Locations of Autobahnanschlussstelle
 ...were read manually using **Google Map**.
